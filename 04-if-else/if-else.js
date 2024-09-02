@@ -78,7 +78,7 @@ console.log('********** nested if-else condition **********')
 const money = 500;
 
 if (money >= 500){
-    console.log('bro you are Rich')
+    console.log('bro you are Rich')//bro you are Rich
 }
 
 else {

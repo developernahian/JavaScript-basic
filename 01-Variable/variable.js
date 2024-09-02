@@ -1,3 +1,10 @@
+//const: value will not change
+//let: value can change
+//var: we should not use it
+
+
+
+
 /*
 VARIABLE
 5 things to declare a variable

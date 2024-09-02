@@ -114,6 +114,10 @@ console.log('********** NaN **********');
 var d = NaN;
 console.log(d);//NaN
 
+
+
+
+
 //COMMENT: null
 console.log('********** null **********');
 var d = null;
