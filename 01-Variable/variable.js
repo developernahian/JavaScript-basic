@@ -49,7 +49,11 @@ var height;
 console.log(height);
 
 
+//IMPORTANT:
+//set or update element
 let a = 10;
-const b = 20;
+a = 20
+console.log(a);//20
+
 
 
