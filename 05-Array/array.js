@@ -208,8 +208,9 @@ r orthat alada variable e rekhe proint kora jai othoba console.log diyeo direct 
 
 
 
-//PROBLEM: video and code bujhini
-console.log('********* splice() ********');
+
+console.log('************ splice() **************');
+//splice() er 5 ta use case niche dewa holo
 
 /*
 1. Removing Elements:
