@@ -53,6 +53,7 @@ console.log(num);
 //  OR
 console.log('********* print odd ****2*******');
 
+//num %2===1 or num % 2 !== 0
 for (let num = 1 ; num <= 10 ; num++){
     if (num % 2 !== 0){
         console.log(num);
@@ -64,4 +65,36 @@ for (let num = 1 ; num <= 10 ; num++){
 5
 7
 9
+*/
+
+// sum 11 to 20 using for loop
+
+console.log('********* sum 11 to 20');
+
+let sum = 0;// have to use let. becaus const er man chenge kora jaina
+for (let num = 11 ; num <= 20 ; num++){
+    sum += num;
+}
+console.log('sum of 11 to 20 :', sum);// sum of 11 to 20 : 155
+
+
+console.log('********** decrement *********');
+for (let i = 10 ; i >= 0 ; i--){
+    console.log(i);
+    
+}
+
+/*
+output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
 */

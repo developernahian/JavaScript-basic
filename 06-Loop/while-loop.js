@@ -54,9 +54,31 @@ while (j <= 10){
      j++
 }
 /*
-2
-4
-6
-8
+even number 2
+even number 4
+even number 6
+even number 8
+even number 10
+*/
+
+// print 10 to 1 reverse
+
+let k = 10  
+while (k >= 1){
+    console.log(k);
+    k--
+}
+
+/*
+output:
 10
+9
+8
+7
+6
+5
+4
+3
+2
+1
 */
