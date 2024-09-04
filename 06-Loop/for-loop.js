@@ -1,3 +1,5 @@
+// amar jokhon jani kokhon start hobe and kokhon end hobe orthat kotokhon cholbe mane sob kichu define thake tokhon for loop use kora jai
+
 const numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 for (const num of numbers) {
   console.log(num);

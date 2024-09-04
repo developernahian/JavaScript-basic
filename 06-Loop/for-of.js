@@ -1,5 +1,5 @@
 //for of loop
-// loop and string er all value print korear jonno use hoy
+//NOTE: loop and string er all value print korear jonno use hoy
 
 /*
 The for...of loop is a type of loop in JavaScript that allows you to iterate over the values of an iterable object, such as an array, a string, or a Map.

@@ -1,3 +1,7 @@
+// nirdisto sonka define kora na thakle tokhon while loop use hoy
+// loop exactly kotokhon cholbe eta difine kora na thakle tokhon while loop use hoy
+// orthat kono sorto fulfil korar purbo porjonto cholbe 
+
 console.log("********** while loop **********");
 let num = 0;
 while (num < 5) {
