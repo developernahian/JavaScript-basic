@@ -1,3 +1,4 @@
+// array te upper case lower case kora jaina but string e jai
 // Array
 const numbersss = []
 const numbers = [10, 11, 12];

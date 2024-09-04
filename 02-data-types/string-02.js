@@ -3,6 +3,12 @@
 // trim() // trim left and right side both
 //trimStart() // trim only left side
 //trimEnd()  // trim only right side
+
+// Note: Note: dont use trimLeft and trimRight because it is old. left and right repleaced by trimStart and trimEnd
+
+
+// javascript string is case sensitive
+
 console.log('##################################');
 
 const school = 'ABC Model School'
@@ -43,6 +49,7 @@ else{
 
 
 console.log('############## trim() ##############');
+// This method removes whitespace from both the beginning and the end of a string
 
 const drink = "water"
 const liquid = "    water "
@@ -67,6 +74,7 @@ else{
 
 
 console.log('########## trimStart() ##############');
+//This method removes whitespace from the beginning (left side) of a string.
 
 const str1 = "   Hello World";
 const str2 = "Hello World";
@@ -79,6 +87,7 @@ if (str1.trimStart() === str2) {
 
 
 console.log('############ trimEnd() ###############');
+// This method removes whitespace from the end (right side) of a string. Here's an example:
 
 const str3 = "Hello World   ";
 const str4 = "Hello World";
