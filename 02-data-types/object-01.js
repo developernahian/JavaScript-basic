@@ -92,7 +92,7 @@ output:
 */
 console.log('**********  **********');
 
-//COMMENT: 
+//COMMENT: update using new variable or same key are same
 const keyName = 'profession'
 console.log(person['profession']);//output: developer
 console.log(person[keyName]);//output: developer
