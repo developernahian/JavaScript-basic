@@ -224,6 +224,11 @@ console.log(fruits1); // Output: ['apple', 'banana', 'mango']
 console.log(removed); // Output: ['orange', 'grape']
 
 
+//want to delete 5
+const numberss = [3,4,21,5,67,32]
+numberss.splice(3,1) // splice (start index, deletecount)
+//numbers.splice(3,2) // splice (start, deletecount)
+console.log(numberss);
 
 
 /*

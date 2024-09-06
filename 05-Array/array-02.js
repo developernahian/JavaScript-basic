@@ -57,6 +57,29 @@ const num2 = [10,20,30,40,50]
 const num2rev = num2.reverse()
 console.log(num2rev);// output: [ 50, 40, 30, 20, 10 ] 
 
+// using for of
+const flowers = ['rose', 'tulip', 'sunflower'];
+for(const flower of flowers.reverse()){
+    console.log(flower);
+}
+/*
+sunflower
+tulip
+rose
+*/
+
+//using for loop 
+for(let i = flowers.length-1; i >= 0; i--){
+    console.log(flowers[i]);
+}
+/*
+sunflower
+tulip
+rose
+*/
+
+
+
 
 
 console.log('********** Array Sort **********');

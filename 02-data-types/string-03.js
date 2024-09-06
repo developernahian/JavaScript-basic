@@ -55,6 +55,26 @@ output(4):
 
 
 
+const ss = 'rohim korim kamal';
+const numbers = ss.split(' ');// ['rohim', 'korim', 'kamal']
+console.log(numbers); 
+
+const abc = 'rohim,korim,kamal';
+const names = abc.split(',');
+console.log(names);// ['rohim', 'korim', 'kamal']
+
+const cc = 'amixtumixshextui'
+const words = cc.split('x');
+console.log(words);// [ 'ami', 'tumi', 'she', 'tui' ]
+
+const dd = 'amiztumi hizhello hellozworld'
+const words2 = dd.split('z');
+console.log(words2); //[ 'ami', 'tumi hi', 'hello hello', 'world' ]
+
+
+
+
+
 console.log('********** string split example **********');
 const friends = 'abul,babul,bulbul,kabul'
 

@@ -44,7 +44,7 @@ storage
 isNew
 tru=
 */
-console.log('**********Object.keys()  **********');
+console.log('********** Object.keys()  **********');
 
 //Object.keys()
 const keys = Object.keys(mobile);
@@ -63,6 +63,9 @@ isNew
 
 */
 
+console.log('**********  **********');
+
+
 for (const key of keys){
     console.log(mobile[key]);
 }
@@ -75,6 +78,9 @@ black
 true
 */
 
+console.log('**********  **********');
+
+
 for (const key of keys){
     console.log(key, mobile[key]);
 }
@@ -86,6 +92,9 @@ camera 48MP
 storage 128GB
 isNew true
 */
+
+console.log('**********  **********');
+
 
 for (const key of keys){
     console.log(key, ':::', mobile[key]);
