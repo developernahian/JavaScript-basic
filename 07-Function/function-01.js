@@ -18,6 +18,8 @@ console.log('******************************');
 
 function toCelsius(f) {
     return (5/9) * (f-32);
+    console.log("not work after return");
+    
   }
   
   let value = toCelsius(98.4);
@@ -34,6 +36,24 @@ function summ(a,b){
 }
 
 console.log(summ(5,10));// 15
+// OR
+let pp = 44
+let qq = 6
+console.log(summ(pp,qq));// 50
+
+
+console.log('******************************');
+// Conditional Return
+function isEven(number){
+  if (number%2 === 0) {
+    return true;
+  }
+  else{
+    return false
+  }
+}
+console.log(isEven(5));// false
+console.log(isEven(6));// true
 
 
 
@@ -72,3 +92,22 @@ fun()//Volvo
 let carName = "BMW"
 console.log(carName);//BMW
 // NOTE: example of carName
+
+
+
+console.log('******************************');
+// problem solving
+// write a function to give me the sum of all numbers in an array
+
+function sumOfNumbers(numbers){
+    let sum = 0
+    for (const number of numbers) {
+        sum += number
+    }
+    return sum
+}
+
+const numbs = [4,2,1,6]
+const sum = sumOfNumbers(numbs)
+console.log('Sum of numbers is ', sum);
+
