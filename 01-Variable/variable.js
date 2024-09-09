@@ -1,5 +1,6 @@
-//const: value will not change
-//let: value can change
+//const: value will not change. but push pop kora jai like array te push pop kora jai kintu notun kore value set kora jaina. abar object e  push pop kora jai but notu kore man set kora jai na. but update kora jai
+
+//let: value can change, notun kore value set kora jai
 //var: we should not use it
 
 
