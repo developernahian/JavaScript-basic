@@ -1,13 +1,14 @@
 // Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
 
 
-//
+//namee, time is Parameter
 function sleep(namee, time){
     // console.log(namee ,  "is sleeping from 10 PM");
     console.log(namee +  " is sleeping from " + time + " PM");
     //NOTE: by default return undefined
 }
 
+//"Rahim", 10 is Argument
 sleep("Rahim", 10);// Rahim is sleeping from 10 PM
 sleep("Karim", 11);// Karim is sleeping from 11 PM
 sleep("John", 12);// John is sleeping from 12 PM
