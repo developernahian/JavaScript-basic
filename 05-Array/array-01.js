@@ -1,3 +1,4 @@
+// Array er moddhe Array o  Object thakte pare
 // array te upper case lower case kora jaina but string e jai
 // Array
 const numbersss = []
