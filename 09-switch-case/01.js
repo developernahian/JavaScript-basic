@@ -25,3 +25,4 @@ function calculator(num1, num2, operator) {
   let result = calculator(number1, number2, operator);
   console.log(`${number1} ${operator} ${number2} = ${result}`);
   
+
